@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>To do</title>
+</head>
+<body>
+    <div class="container">
+        <header class="text-center my-4 text-light">
+            <h1 class="mb-4">To Do list</h1>
+            <form class="search">
+                <input class ="form-control" type="text" placeholder="search" name="search">
+                <input class ="form-control reset btn btn-default" type="button" value="Reset">
+            </form>
+        </header>
+
+        <ul class="list-group to-do mx-auto text-light">
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Drink tea</span>
+                <i class="bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Clean room</span>
+                <i class="bi-trash delete"></i>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-item-center">
+                <span>Do laundry</span>
+                <i class="bi-trash delete"></i>
+            </li>
+        </ul>
+
+        <form class="add text-center my-4">
+            <label class="text-light my-2">Add a new to do</label>
+            <input type="text" class="form-control m-auto" name="add">
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

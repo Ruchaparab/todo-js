@@ -1,0 +1,36 @@
+body{
+    background:#352f5b;
+}
+
+.container{
+    max-width: 500px;
+}
+
+input[type=text],
+input[type=text]:focus{
+    color: rgba(256,256,256,0.5);
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 500px;
+}
+
+input[type=button],
+input[type=button]:hover,
+input[type=button]:focus{
+    border: 1px solid;
+    color: rgba(256,256,256,0.5);
+    background: rgba(0,0,0,0.2);
+}
+
+.to-do li{
+    color: rgba(256,256,256,0.8);
+    background:#423a6f;
+}
+
+.delete{
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
